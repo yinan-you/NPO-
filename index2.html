@@ -16,13 +16,22 @@
     >
 
     <title>Pornhub</title>
+    <style>
+        /* Make the top section sticky */
+        .sticky-top {
+            position: sticky;
+            top: 0;
+            background-color: white; /* Matches the background */
+            z-index: 1030; /* Ensures it stays above other elements */
+        }
+    </style>
   </head> 
   
   <body>
-    <div class="d-flex justify-content-around align-items-center mb-3" style="margin-top: 5vh;">
+    <div class="d-flex justify-content-around align-items-center mb-3 sticky-top" style="margin-top: 5vh;">
         <div class="p-1 d-block">
             <a href="#">
-                <img class="img-fluid" src="images/KFC_logo.svg"alt="KFC logo" width="100" height="75">
+                <img class="img-fluid" src="images/KFC_logo.svg" alt="KFC logo" width="100" height="75">
             </a>
         </div>
         <div class="d-none d-sm-block">
@@ -51,7 +60,7 @@
             Helping students reach their full potential
         </h1>
     </div>
-    <div class="text-center"  style="margin-top: calc(10px + 4vw);">
+    <div class="text-center" style="margin-top: calc(10px + 4vw);">
         <h2>
             Come to our free session at <br />
             <strong>Dandenong Library this Saturday!</strong>
@@ -85,7 +94,5 @@
     <section id="Mission">
         <h1>Mission</h1>
     </section>
-
-
   </body>
 </html>

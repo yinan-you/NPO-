@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Rubik";
-  src: url("fonts/Rubik-Medium.woff2") format("woff2");
+  src: url("fonts/Rubik-Medium.ttf") format("woff2");
   font-weight: 50;
   font-style: normal;
   font-display: swap;
@@ -57,6 +57,23 @@ br {
   display: block;
   content: "";
   margin-top: 100rem 0;
+}
+
+section {
+  height: 100vh; /* Each section takes the full viewport height */
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+
+section:nth-child(odd) {
+  background: #f4f4f4;
+}
+
+section:nth-child(even) {
+  background: #ddd;
 }
 
 /*# sourceMappingURL=styles.css.map */
